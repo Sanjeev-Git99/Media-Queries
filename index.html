@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      img {
+        height: 300px;
+        width: 300px;
+      }
+      /* @media screen and (min-width: 0px) and (max-width: 425px) {
+        .og,
+        .puspha2 {
+          display: none;
+        }
+      }
+      @media screen and (min-width: 426px) and (max-width: 768px) {
+        .ram,
+        .puspha2 {
+          display: none;
+        }
+      }
+      @media screen and (min-width: 769px) {
+        .ram,
+        .og {
+          display: none;
+        }
+      } */
+      .div1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        padding: 50px;
+        background-color: rgb(194, 84, 141);
+      }
+      @media screen and (min-width: 0px) and (max-width: 475px) {
+        .div1 {
+          display: flex;
+          justify-content: center;
+          /* flex-wrap: wrap; */
+          gap: 15px;
+          background-color: blue;
+        }
+      }
+      @media screen and (min-width: 476px) and (max-width: 768px) {
+        .div1 {
+          display: flex;
+          justify-content: center;
+          /* flex-wrap: wrap; */
+          gap: 15px;
+          background-color: rgb(43, 228, 213);
+        }
+      }
+      .div1 div {
+        border: 3px solid red;
+        text-align: center;
+      }
+
+      .heading {
+        background-color: aqua;
+      }
+      .para {
+        height: 50px;
+        overflow-y: scroll;
+        background-color: blueviolet;
+      }
+      .cd {
+        width: 325px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div1">
+      <div class="cd">
+        <div>
+          <img
+            class="ram"
+            src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTo2ID3pg8TLNTGCFuGwZsBHlposulUhPiZ_rbNJyfXAA3CQAE5ZMXwovgeUcWLGsZsgH91d2d0guqFvh5_-arUEw"
+            alt="Ram Charan"
+          />
+        </div>
+        <div class="heading"><h1>Ram Charan</h1></div>
+        <div class="para">
+          <p>
+            Ram Charan is a Tollywood Actor Lorem ipsum dolor sit, amet
+            consectetur adipisicing elit. Ea repellat, cupiditate necessitatibus
+            autem, dolorem cumque officiis tenetur perferendis dolore iste unde
+            praesentium placeat fugiat. Culpa sunt animi et suscipit modi.
+          </p>
+        </div>
+      </div>
+      <div class="cd">
+        <div>
+          <img
+            class="og"
+            src="https://m.media-amazon.com/images/M/MV5BMDI2N2M5ZjQtNDM2Yi00NjRlLThjOWEtZTI0NjJkOTdkN2ZlXkEyXkFqcGc@._V1_.jpg"
+            alt="OG"
+          />
+        </div>
+
+        <div class="heading"><h1>OG</h1></div>
+        <div class="para">
+          <p>
+            OG is a Tollywood Film and Pawan Kalyan is the Hero in the film
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro a
+            error suscipit fuga, ducimus tempora, maxime veniam aut, harum
+            nostrum laborum saepe ab maiores. Labore perferendis aspernatur
+            inventore voluptas incidunt.
+          </p>
+        </div>
+      </div>
+      <div class="cd">
+        <div>
+          <img
+            class="puspha2"
+            src="https://m.media-amazon.com/images/M/MV5BZjJmMjJmYWMtNTQyYy00NzcxLWE5N2EtMTY5NjRhMGZmYjNlXkEyXkFqcGc@._V1_.jpg"
+            alt="p2"
+          />
+        </div>
+
+        <div class="heading"><h1>Pushpa2</h1></div>
+        <div class="para">
+          <p>
+            Pushpa2 is a Tollywood Film and Allu Arjun is the Hero in the film
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
+            eaque sapiente! Ut dolorum natus distinctio, nemo repellat molestias
+            similique sunt voluptas porro recusandae. Incidunt, repellendus
+            dolore explicabo possimus architecto qui?
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
